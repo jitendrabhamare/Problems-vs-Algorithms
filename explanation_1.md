@@ -2,10 +2,10 @@
 
 ### Problem statement
 
-> Find the square root of the integer without using any Python library. You have to find the floor value of the square root.
-> For example if the given number is 16, then the answer would be 4.
-> If the given number is 27, the answer would be 5 because sqrt(5) = 5.196 whose floor value is 5.
-> The expected time complexity is `O(log(n))`
+> Find the square root of the integer without using any Python library. You have to find the floor value of the square root.__
+> For example if the given number is 16, then the answer would be 4.__
+> If the given number is 27, the answer would be 5 because sqrt(5) = 5.196 whose floor value is 5.__
+> The expected time complexity is `O(log(n))`__
 
 ### Code Design
 
@@ -16,3 +16,22 @@
 ### Efficiency
 
 - The code uses binary search algorithm and hence divides problem size into half after each recursion. Therefore, time complexity is `O(log(n))`
+
+
+
+# Search in a Rotated Sorted Array
+
+### Problem statement
+> You are given a sorted array which is rotated at some random pivot point.
+
+Example: [0,1,2,4,5,6,7] might become [4,5,6,7,0,1,2]
+
+> You are given a target value to search. If found in the array return its index, otherwise return -1.
+
+You can assume there are no duplicates in the array and your algorithm's runtime complexity must be in the order of O(log n).
+
+Example:
+
+Input: nums = [4,5,6,7,0,1,2], target = 0, Output: 4
+### Code Design
+### Efficiency
