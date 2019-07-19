@@ -22,16 +22,16 @@
 # Search in a Rotated Sorted Array
 
 ### Problem statement
-> You are given a sorted array which is rotated at some random pivot point.
+> You are given a sorted array which is rotated at some random pivot point. <br />
 
-Example: [0,1,2,4,5,6,7] might become [4,5,6,7,0,1,2]
+> Example: [0,1,2,4,5,6,7] might become [4,5,6,7,0,1,2]. <br /> 
 
-> You are given a target value to search. If found in the array return its index, otherwise return -1.
+> You are given a target value to search. If found in the array return its index, otherwise return -1. <br />
+> You can assume there are no duplicates in the array and your algorithm's runtime complexity must be in the order of `O(log n)`. <br />
 
-You can assume there are no duplicates in the array and your algorithm's runtime complexity must be in the order of O(log n).
+> Example: <br />
 
-Example:
+> Input: `nums = [4,5,6,7,0,1,2], target = 0, Output: 4`
 
-Input: nums = [4,5,6,7,0,1,2], target = 0, Output: 4
 ### Code Design
 ### Efficiency
