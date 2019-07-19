@@ -2,10 +2,10 @@
 
 ### Problem statement
 
-> Find the square root of the integer without using any Python library. You have to find the floor value of the square root.__
-> For example if the given number is 16, then the answer would be 4.__
-> If the given number is 27, the answer would be 5 because sqrt(5) = 5.196 whose floor value is 5.__
-> The expected time complexity is `O(log(n))`__
+> Find the square root of the integer without using any Python library. You have to find the floor value of the square root.<br />
+> For example if the given number is 16, then the answer would be 4.<br />
+> If the given number is 27, the answer would be 5 because sqrt(5) = 5.196 whose floor value is 5.<br />
+> The expected time complexity is `O(log(n))`<br />
 
 ### Code Design
 
