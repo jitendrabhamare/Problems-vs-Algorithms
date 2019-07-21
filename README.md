@@ -39,10 +39,10 @@
 - Since the input is a rotated array, it's not straightforward to choose left/right part of an array
 - The key logic is to find either left half side or right half side of an array where a number potentially can lie. 
 - There could be two polssible scenarios, if the number lies in left half of a rotated array.
-1. When pivot point is after mid-array element - Number is greater than first element and less than mid-array element
-2. When the pivot point is before mid-array element - Number is greater than first element, greater than mid-array element and greater than last element.
+  1. When pivot point is after mid-array element - Number is greater than first element and less than mid-array element
+  2. When the pivot point is before mid-array element - Number is greater than first element, greater than mid-array element and greater than last element.
 - If the number is not in left-half, following condition ensures that it's in right half. 
-1. If number is less than the last element of an array.
+  1. If number is less than the last element of an array.
 - If both of above conditions are not valid, the array does not contains the number, hence it should return -1. 
 
 ### Efficiency
