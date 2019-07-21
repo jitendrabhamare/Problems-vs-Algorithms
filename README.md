@@ -20,7 +20,7 @@
 
 #### Space Complexity
 - The code does not create any extra array. 
-- Size of input array is n, space complexity `O(n)`
+- Size of input array is n, hence space complexity `O(n)`
 
 
 ### Solution
@@ -55,7 +55,15 @@
 - If both of above conditions are not valid, the array does not contains the number, hence it should return -1. 
 
 ### Efficiency
+
+#### Time Complexity
 - The code uses a modified version of Binary Search Algorithm and hence divides problem size into half after each recursion. Therefore, time complexity is `O(log(n))`
+
+#### Space Complexity
+- The helper function recursively passes local array for each recursion. However code does execute in parallel. Hence, if input size is n, space is always < 3n. complexity for helper function is `O(n)`.
+- Thus overall space complexity is input array space + stack-array space during recursion, which is `O(n) + O(n)`. i.e `O(n)`.  
+
+
 
 ### Solution
 - [rotated_array_search.py](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/rotated_array_search.py)
@@ -80,10 +88,18 @@
         - Convert two arrays into numbers and create and return output_list
 
 ### Efficiency
+
+#### Time Complexity
 - Merge Sort takes `O(nlog(n))` time. 
 - To create two num\_list, it runs while loops once (passes though all elements of an array once), hence it takes `O(n)` time.
 - Two `join` sub-arrays into numbers, it runs for loop (two times each) which takes 2 x n/2 time. Hence `O(n)`
 - Thus overall time complexity is `O(nlog(n))`
+
+#### Space Complexity
+- Space complexity for Merge-Sort is `O(n)`.
+- Subarrays take size of `2 x O(n/2).` which is `O(n)`. 
+- Overall Space complexity is `O(n)`
+
 
 ### Solution
 - [rearrange_digits.py](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/rearrange_digits.py)
