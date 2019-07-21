@@ -17,6 +17,9 @@
 
 - The code uses binary search algorithm and hence divides problem size into half after each recursion. Therefore, time complexity is `O(log(n))`
 
+### Solution
+
+- [find_sqrt.py](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/find_sqrt.py)
 
 
 # Search in a Rotated Sorted Array
@@ -47,3 +50,6 @@
 
 ### Efficiency
 - The code uses a modified version of Binary Search Algorithm and hence divides problem size into half after each recursion. Therefore, time complexity is `O(log(n))`
+
+### Solution
+- [rotated_array_search.py](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/rotated_array_search.py)
