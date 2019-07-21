@@ -21,6 +21,7 @@ def rearrange_digits(input_list):
     
     while sorted_list:
         first_num_list.append(sorted_list.pop())
+        # Break the while loop if array is empty
         if not sorted_list:
             break
         second_num_list.append(sorted_list.pop())
