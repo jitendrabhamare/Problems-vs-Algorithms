@@ -15,7 +15,13 @@
 
 ### Efficiency
 
+#### Time Complexity
 - The code uses binary search algorithm and hence divides problem size into half after each recursion. Therefore, time complexity is `O(log(n))`
+
+#### Space Complexity
+- The code does not create any extra array. 
+- Size of input array is n, space complexity `O(n)`
+
 
 ### Solution
 
