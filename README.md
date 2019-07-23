@@ -130,3 +130,22 @@
 
 ### Solution
 - [sort_012.py](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/sort_012.py)
+
+
+# Autocomplete with Tries
+
+### Problem Statement
+> A trie is a tree-like data structure that stores a dynamic set of strings. Tries are commonly used to facilitate operations like predictive text or autocomplete features on mobile phones or web search.
+> Implement a code that will return all complete word suffixes that exist in the trie. For example, if our Trie contains the words `["fun", "function", "factory"]` and we ask for suffixes from the `f` node, we would expect to receive ["un", "unction", "actory"] back from node. 
+
+
+### Design Logic
+
+### Efficiency
+
+#### Time Complexity
+
+#### Space Complexity
+
+### Solution
+
