@@ -139,7 +139,7 @@
 >
 > Implement a code that will return all complete word suffixes that exist in the trie. 
 >
-> For example, if our Trie contains the words `["fun", "function", "factory"]` and we ask for suffixes from the `f` node, we would expect to receive ["un", "unction", "actory"] back from node. 
+> For example, if our Trie contains the words `["fun", "function", "factory"]` and we ask for suffixes from the `f` node, we would expect to receive `["un", "unction", "actory"]` back from node. 
 
 
 ### Design Logic
