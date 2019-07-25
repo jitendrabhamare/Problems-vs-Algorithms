@@ -4,7 +4,6 @@ class TrieNode:
         ## Initialize this node in the Trie
         self.word_finished = False
         self.children = {}
-        
     
     def insert(self, char):
         ## Add a child node in this Trie
@@ -64,6 +63,8 @@ class Trie:
         return current_node
 
 
+## Testcase ##########
+
 MyTrie = Trie()
 wordList = [
     "ant", "anthology", "antagonist", "antonym", 
@@ -83,7 +84,7 @@ def f(prefix):
     else:
         print('')
 
-## Call function
+## Call function f
 prefix_list = ['f', 'a', 'an', 'tr', 't', '', 'q']
 
 for prefix in prefix_list:
