@@ -24,10 +24,15 @@ def get_min_max(ints):
 
         
 
-## Example Test Case of Ten Integers
+## Example Test Case of n Integers
 import random
-
-l = [i for i in range(0, 1000)]  # a list containing 0 - 9
+n = 1000
+l = [i for i in range(0, n)]  # a list containing 0 - 9
 random.shuffle(l)
-
 print ("Pass" if ((0, 999) == get_min_max(l)) else "Fail")
+
+# Pass empty list
+print ("Pass" if ((None, None) == get_min_max([])) else "Fail")
+
+# Pass 
+print ("Pass" if ((3, 3) == get_min_max([3])) else "Fail")
