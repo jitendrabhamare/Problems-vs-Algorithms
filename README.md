@@ -178,3 +178,4 @@
 - If input size is n, space complexity is `O(n)`
 
 ### Solution
+- [get_min_max.py](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/get_min_max.py)
