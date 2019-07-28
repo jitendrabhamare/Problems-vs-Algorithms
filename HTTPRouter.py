@@ -12,8 +12,6 @@ class RouteTrieNode:
             self.children[page] = RouteTrieNode(handler)
 
 
-
-
 # A RouteTrie will store our routes and their associated handlers
 class RouteTrie:
     def __init__(self, handler=''):
@@ -33,7 +31,6 @@ class RouteTrie:
         current_node.handler = handler
 
 
-
     def find(self, path_list):
         # Starting at the root, navigate the Trie to find a match for this path
         # Return the handler for a match, or None for no match
@@ -45,7 +42,6 @@ class RouteTrie:
             current_node = current_node.children[page]
         
         return current_node.handler
-
 
 
 # The Router class will wrap the Trie and handle 
@@ -83,7 +79,6 @@ class Router:
         path_list = path.split('/')
         path_list = ' '.join(path_list).split()
         return path_list
-
 
 
 # Here are some test cases and expected outputs you can use to test your implementation
