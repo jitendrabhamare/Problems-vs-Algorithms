@@ -150,7 +150,7 @@
 
 #### Time Complexity
 - Both 'insert' and 'find' functions involve one for loop each, and time complexity for these operations is `O(n)`.
-- The 'suffixes' function contains a for loop with recursion, hence time complexity is a product of recursion depth and trie depth. Hence it's `O(n<sup>2</sup>)`
+- The 'suffixes' function contains a for loop with recursion, hence time complexity is a product of recursion depth and trie depth. Hence it's `O(n^2)`
 
 #### Space Complexity
 
