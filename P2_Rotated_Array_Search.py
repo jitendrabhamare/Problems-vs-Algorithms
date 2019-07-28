@@ -1,3 +1,6 @@
+# Search in a Rotated Sorted Array
+# # Author: Jitendra Bhamare
+
 def rotated_array_search(input_list, number):
     """
     Find the index by searching in a rotated sorted array
