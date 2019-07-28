@@ -1,3 +1,6 @@
+# HTTPRouter using a Trie
+# Author: Jitendra Bhamare
+
 # A RouteTrieNode will be similar to our autocomplete TrieNode... with one additional element, a handler.
 class RouteTrieNode:
     def __init__(self, handler=''):
