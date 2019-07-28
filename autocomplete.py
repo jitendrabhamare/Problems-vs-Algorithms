@@ -1,3 +1,6 @@
+# Autocomplete with Tries
+# Author: Jitendra Bhamare
+
 ## Represents a single node in the Trie
 class TrieNode:
     def __init__(self):
