@@ -1,3 +1,6 @@
+# Dutch National Flag Problem
+# Author: Jitendra Bhamare
+
 def sort_012(list_012):
     """
     Given an input array consisting on only 0, 1, and 2, sort the array in a single traversal.
