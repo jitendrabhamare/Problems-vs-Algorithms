@@ -1,3 +1,6 @@
+# Max and Min in a Unsorted Array
+# Author: Jitendra Bhamare
+
 def get_min_max(ints):
     """
     Return a tuple(min, max) out of list of unsorted integers.
