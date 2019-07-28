@@ -153,9 +153,10 @@
 - The 'suffixes' function contains a for loop with recursion, hence time complexity is a product of recursion depth and trie depth. Hence it's `O(n^2)`
 
 #### Space Complexity
+- The size of data-structure increases linearly. Therefore, if input size is n, space complexity is `O(n)`
 
 ### Solution
-
+- [autocomplete.py](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/autocomplete.py)
 
 
 
