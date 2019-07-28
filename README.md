@@ -143,10 +143,14 @@
 
 
 ### Design Logic
+- A function `suffix` on the TrieNode object is implemented that returns all complete word suffixes that exist below it in the trie.
+- It takes care of corner cases including empty nodes. Recursively calls itself (based on DFS algorithm) and form string from children keys.
 
 ### Efficiency
 
 #### Time Complexity
+- Both 'insert' and 'find' functions involve one for loop each, and time complexity for these operations is `O(n)`.
+- The 'suffixes' function contains a for loop with recursion, hence time complexity is a product of recursion depth and trie depth. Hence it's `O(n<sup>2</sup>)`
 
 #### Space Complexity
 
