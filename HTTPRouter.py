@@ -35,10 +35,11 @@ class RouteTrie:
         # Starting at the root, navigate the Trie to find a match for this path
         # Return the handler for a match, or None for no match
         current_node = self.root
+        router = Router()
 
         for page in path_list:
             if page not in current_node.children:
-                return None
+                return router.default_handler
             current_node = current_node.children[page]
         
         return current_node.handler
@@ -88,6 +89,10 @@ router = Router("root handler", "not found handler") # remove the 'not found han
 router.add_handler("/home/about", "about handler")  # add a route
 
 # some lookups with the expected output
+print("\n")
+print("-------------------------------------------")
+print("Test case 1")
+print("-------------------------------------------")
 print(router.lookup("/")) # should print 'root handler'
 print(router.lookup("")) # should print 'root handler'
 print(router.lookup("/home")) # should print 'not found handler' or None if you did not implement one
@@ -103,6 +108,10 @@ router1.add_handler("/home/about/subjects/maths", "maths handler")  # add a rout
 router1.add_handler("/home/about/subjects/computers")  # add a route
 
 # some lookups with the expected output
+print("\n")
+print("-------------------------------------------")
+print("Test case 2")
+print("-------------------------------------------")
 print(router1.lookup("/")) # should print 'this is a root handler'
 print(router1.lookup("")) # should print 'this is a root handler'
 print(router1.lookup("/home")) # should print 'not found handler' or None if you did not implement one

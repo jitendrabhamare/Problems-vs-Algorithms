@@ -205,19 +205,21 @@
 
 
 
-### Design Logic
-- Assign first number of an array to both min and max
-- Traverse once through an array compare each element with min and max num.
-- Reassign min, max based on comparison
+### Design Logic/Features
+- Three Class data types are used namely Router, RouteTrie and RouteTrieNode.
+- Router.add\_handler is used to add a new handler with the help of RouteTrie.insert and RouteTrieNode.insert.
+- Router.lookup is used to find a handler with the help of RouteTrie.find.
+- Added a "not found handler" to the Router which is returned whenever a path is not found in the Trie.
+- Handle trailing slashes! A request for '/about' or '/about/' are probably looking for the same page. Requests for '' or '/' are probably looking for the root handler. Handle these edge cases in your Router.
 
 ### Efficiency
 
 #### Time Complexity
-- The code traverse through the list just once.
-- Hence time complexity is `O(n)`.
+- Run time of both 'add_handler' and 'lookup' logic is based on depth of the Trie.
+- For depth n, time complexity is `O(n)`.
 
 #### Space Complexity
-- If input size is n, space complexity is `O(n)`
+- The size of data-structure increases linearly. Therefore, if input size is n, space complexity is `O(n)`
 
 ### Solution
-- [get_min_max.py](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/get_min_max.py)
+- [HTTPRouter.py](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/HTTPRouter.py)
