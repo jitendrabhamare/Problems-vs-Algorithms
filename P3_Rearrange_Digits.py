@@ -1,3 +1,6 @@
+# Rearrange Array Elements
+# # Author: Jitendra Bhamare
+
 def rearrange_digits(input_list):
     """
     Rearrange Array Elements so as to form two number such that their sum is maximum.
