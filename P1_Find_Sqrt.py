@@ -1,3 +1,6 @@
+# Find the square root of an integer with O(log(n)) time complexity.
+# Author: Jitendra Bhamare
+
 def sqrt(number):
     """
     Calculate the floored square root of a number
