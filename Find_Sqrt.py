@@ -4,13 +4,9 @@
 def sqrt(number):
     """
     Calculate the floored square root of a number
-
-    Args:
-       number(int): Number to find the floored squared root
-    Returns:
-       int: Floored Square Root
-    """
-    
+    Args: number(int): Number to find the floored squared root
+    Returns: int- Floored Square Root
+    """    
     ## base/corner cases
     if number < 0:
         warn = "Number must be non-negative, else returns None."
@@ -24,8 +20,9 @@ def sqrt(number):
         return sqrt_helper(1, number, number)
 
 def sqrt_helper(low, high, ans):
-    """ recursive function uses binary search
-        It recursively finds mid and compare its square value with ans.
+    """ 
+    A recursive function uses binary search.
+    It recursively finds mid and compare its square value with ans.
     """
 
     mid = (low + high)//2
