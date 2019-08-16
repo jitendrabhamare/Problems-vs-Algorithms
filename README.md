@@ -1,4 +1,7 @@
-# Finding the Square Root of an Integer
+# Algorithms - Python
+A series of real-world open-ended problems, such as request routing for a web server, search-term auto-completion and Fibonacci heap which train you to apply suitable data structures and algorithms under different contexts.
+
+## Finding the Square Root of an Integer
 
 ### Problem statement
 
@@ -28,7 +31,7 @@
 - [find_sqrt.py](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/find_sqrt.py)
 
 
-# Search in a Rotated Sorted Array
+## Search in a Rotated Sorted Array
 
 ### Problem statement
 > You are given a sorted array which is rotated at some random pivot point. <br />
@@ -69,7 +72,7 @@
 - [rotated_array_search.py](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/rotated_array_search.py)
 
 
-# Rearrange Array Elements
+## Rearrange Array Elements
 
 ### Problem statement
 > Rearrange Array Elements so as to form two number such that their sum is maximum. Return these two numbers. You can assume that all array elements are in the range [0, 9]. The number of digits in both the numbers cannot differ by more than 1. You're not allowed to use any sorting function that Python provides and the expected time complexity is O(nlog(n)).
@@ -107,7 +110,7 @@
 
 
 
-# Dutch National Flag Problem
+## Dutch National Flag Problem
 
 
 ### Problem statement
@@ -132,7 +135,7 @@
 - [sort_012.py](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/sort_012.py)
 
 
-# Autocomplete with Tries
+## Autocomplete with Tries
 
 ### Problem Statement
 > A trie is a tree-like data structure that stores a dynamic set of strings. Tries are commonly used to facilitate operations like predictive text or autocomplete features on mobile phones or web search.
@@ -160,7 +163,7 @@
 
 
 
-# Max and Min in an Unsorted Array
+## Max and Min in an Unsorted Array
 
 ### Problem Statement
 > In this problem, we will look for smallest and largest integer from a list of unsorted integers. <br />
@@ -186,7 +189,7 @@
 
 
 
-# HTTPRouter using a Trie 
+## HTTPRouter using a Trie 
 
 ### Problem Statement
 > Implement an HTTPRouter like you would find in a typical web server using the Trie data structure. <br />
