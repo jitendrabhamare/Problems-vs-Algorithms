@@ -14,16 +14,14 @@
 ### Code Design
 
 - The code does not use any external library.
-- The function 'sqrt' calls a recursive helper function - 'sqrt\_helper' that returns square-root of a number using binary-search algorithm
+- The function 'sqrt' calls a recursive helper function - 'sqrt\_helper' that returns square-root of a number using **binary-search algorithm**
 
 
 ### Efficiency
 
 #### Time Complexity
-- The code uses binary search algorithm and hence divides problem size into half after each recursion. Therefore, time complexity is `O(log(n))`
+- The code uses binary search algorithm and hence divides problem size into half after each recursion. Therefore, time complexity is **`O(log(n))`**
 
 #### Space Complexity
 - The code does not create any extra array. 
-- Size of input array is n, hence space complexity `O(n)`
-
-
+- Size of input array is n, hence space complexity **`O(n)`**
