@@ -1,7 +1,7 @@
 # Algorithms - Python
 A series of real-world open-ended problems, such as request routing for a web server, search-term auto-completion and Fibonacci heap which train you to apply suitable data structures and algorithms under different contexts.
 
-1 **[Finding the Square Root of an Integer](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/Find_Sqrt.md)**
+1. **[Finding the Square Root of an Integer](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/Find_Sqrt.md)**
 
 
 
