@@ -9,7 +9,7 @@
 
 ### Solution
 
-- [find_sqrt.py](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/find_sqrt.py)
+- [find_sqrt.py](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/Find_Sqrt.py)
 
 ### Code Design
 
