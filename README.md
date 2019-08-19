@@ -3,7 +3,7 @@ A series of real-world open-ended problems, such as request routing for a web se
 
 1. **[Finding the Square Root of an Integer](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/Find_Sqrt.md)**
 
-2. [Search in a Rotated Sorted Array](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/Rotated_Array_Search.md)
+2. **[Search in a Rotated Sorted Array](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/Rotated_Array_Search.md)**
 
 
 ## Rearrange Array Elements
