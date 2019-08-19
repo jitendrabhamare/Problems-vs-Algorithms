@@ -7,7 +7,7 @@
 > Note: `O(n)` does not necessarily mean single-traversal. For e.g. if you traverse the array twice, that would still be an `O(n)` solution but it will not count as single traversal.
 
 ### Solution
-- [sort_012.py](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/sort_012.py)
+- [sort_012.py](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/Sort_012.py)
 
 ### Design Logic
 - The idea is to put 0 and 2 in their correct positions, which will make sure all the 1s are automatically placed in their right positions
