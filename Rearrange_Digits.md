@@ -7,6 +7,10 @@
 >
 >The expected answer would be [531, 42]. Another expected answer can be [542, 31]. In scenarios such as these when there are more than one possible answers, return any one.
 
+
+### Solution
+- [rearrange_digits.py](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/Rearrange_Digits.py)
+
 ### Code Design
 
 -   Two step process:
@@ -31,5 +35,3 @@
 - Overall Space complexity is `O(n)`
 
 
-### Solution
-- [rearrange_digits.py](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/Rearrange_Digits.py)
