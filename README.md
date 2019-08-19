@@ -1,5 +1,7 @@
 # Algorithms - Python
-A series of real-world open-ended problems, such as request routing for a web server, search-term auto-completion and Fibonacci heap which train you to apply suitable data structures and algorithms under different contexts.
+A series of real-world open-ended problems, such as request routing for a web server, search-term auto-completion.
+Each section includes solutions in Python, as well as a text explanation of the efficiency of the code and the design choices.
+
 
 1. **[Finding the Square Root of an Integer](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/Find_Sqrt.md)**
 
@@ -9,10 +11,10 @@ A series of real-world open-ended problems, such as request routing for a web se
 
 4. **[Rearrange Array Elements](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/Rearrange_Digits.md)**
 
-4. **[Autocomplete with Tries](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/Autocomplete.md)**
+5. **[Autocomplete with Tries](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/Autocomplete.md)**
 
-5. **[Max and Min in an Unsorted Array](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/Get_Min_Max.md)**
+6. **[Max and Min in an Unsorted Array](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/Get_Min_Max.md)**
 
-6. **[HTTPRouter using a Trie ](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/HTTPRouter.md)**
+7. **[HTTPRouter using a Trie ](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/HTTPRouter.md)**
 
 
