@@ -7,6 +7,8 @@ A series of real-world open-ended problems, such as request routing for a web se
 
 3. **[Dutch National Flag Problem](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/Dutch_National_Flag.md)**
 
+4. **[Rearrange Array Elements](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/Rearrange_Digits.md)**
+
 4. **[Autocomplete with Tries](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/Autocomplete.md)**
 
 5. **[Max and Min in an Unsorted Array](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/Get_Min_Max.md)**
