@@ -22,6 +22,3 @@
 
 #### Space Complexity
 - The size of data-structure increases linearly. Therefore, if input size is n, space complexity is `O(n)`
-
-### Solution
-- [autocomplete.py](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/autocomplete.py)
