@@ -13,7 +13,7 @@
 > Input: `nums = [4,5,6,7,0,1,2], target = 0, Output: 4`
 
 ### Solution
-- [rotated_array_search.py](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/rotated_array_search.py)
+- [rotated_array_search.py](https://github.com/jitendrabhamare/Problems-vs-Algorithms/blob/master/Rotated_Array_Search.py)
 
 ### Code Design
 
