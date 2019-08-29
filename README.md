@@ -1,4 +1,7 @@
 # Algorithms - Python
+
+![](<https://img.shields.io/badge/python3-passing-brightgreen.svg>)
+
 A series of real-world open-ended problems, such as request routing for a web server, search-term auto-completion.
 Each section includes solutions in Python, as well as a text explanation of the efficiency of the code and the design choices.
 
